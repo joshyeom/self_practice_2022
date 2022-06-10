@@ -8,6 +8,7 @@
 @import "./status-bar.css";
 @import "./home.css";
 @import "./search.css";
+@import "./watch.css";
 
 body {
     font-family: 'Kdam Thmor Pro', sans-serif;
