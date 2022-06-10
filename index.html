@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy All</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="opening__column">
+        <span class="opening__text">Buy All</span>
+    </div>
+    
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <div>
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div>
+                <span>18:43</span>
+            </div>
+            <div>
+                <span>25%</span>
+                <i class="fa-solid fa-battery-half"></i>
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="login-box">
+        <h1 class="title">Buy All</h1>
+        <p>Please Login with your account or signup</p>
+    </div>
+
+    <form action="home.html" method="get" id="login__form" >
+        <input type="text" placeholder="ID" />
+        <input type="password" placeholder="Password" />
+        <input type="submit"  value="Log In" />
+    </form>
+
+    <form class="other-method__login-box">
+        <input  type="submit" value="Log in with Google" onclick="window.open('http://www.google.com')" />
+        <input type="submit" value="Log in with Netflix" onclick="window.open('http://www.netflix.com')"/>
+    </form>
+
+    <script src="https://kit.fontawesome.com/f4b591b4aa.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>

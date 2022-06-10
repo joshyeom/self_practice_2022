@@ -1,0 +1,57 @@
+
+#login__form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px; 
+}
+
+#login__form input {
+    text-align: center;
+    padding: 15px 0px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#login__form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+#login__form input:focus {
+    border-color: rgba(0, 0, 0, 0.7);
+}
+
+#login__form input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.other-method__login-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.other-method__login-box input {
+    border: none;
+    margin: 20px 30px;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+.other-method__login-box input:first-child {
+    background-image : url('https://cdn.icon-icons.com/icons2/2108/PNG/512/google_icon_130924.png'); 
+    background-position: 20px;
+    background-repeat:no-repeat;
+    background-size: 40px;
+} 
+
+.other-method__login-box input:last-child {
+        background-image : url('https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico'); 
+        background-position: 20px;
+        background-repeat:no-repeat;
+        background-size: 40px;
+}

@@ -1,0 +1,72 @@
+.search_search-bar {
+    margin-top: 50px;
+    border: none;
+    background-color: rgba(242, 242, 242);
+    border-radius: 15px;
+    width: 90%;
+    height: 30px;
+}
+
+.search_search {
+    display: flex;
+    justify-content: center;
+}
+
+
+.search_contents {
+    width: 190px;
+    background-color: rgb(235, 240, 245);
+    margin: 0 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+
+
+.search_informations {
+    position: relative;
+}
+
+.book-mark_absolute {
+    position: absolute;
+    bottom: 210px;
+    left: 185px;
+    cursor: pointer;
+}
+
+.search_main {
+    display: flex;
+    margin-left: 25px;
+}
+
+.main2 {
+    margin-top: 30px;
+}
+
+.button_interaction {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button_buy,
+.button_sell{
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.button_buy {
+    background-color: rgb(239, 98, 83);
+}
+
+.button_sell {
+    background-color: rgb(62, 176, 115);
+}

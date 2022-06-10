@@ -1,0 +1,12 @@
+.navigation-bar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid rgba(0, 0, 0, 1);
+}
+
+.navigation-bar__list{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+}

@@ -1,0 +1,40 @@
+.status-bar__column {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-bar__column span~i {
+    margin-left: 1px;
+}
+
+.status-bar__column span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.login-box h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.login-box p {
+    height: 20px;
+    margin-top: 180px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.fa-solid.fa-bolt-lightning {
+    margin-right: 15px;
+}

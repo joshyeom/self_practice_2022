@@ -1,0 +1,22 @@
+.img__main {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.img__categories{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img__categories__images__image{
+    width:80px;
+    border-radius: 100%;
+    margin: 0 20px;
+}
+
+#homeBody {
+    height: 50px;
+}
