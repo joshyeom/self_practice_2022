@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans:wght@400;600&display=swap');
 @import "./reset.css";
 @import "./navigation-bar.css";
+@import "./no-mobile.css";
 /*screens*/
 @import "./index.css";
 @import "./opening.css";
@@ -9,10 +10,12 @@
 @import "./home.css";
 @import "./search.css";
 @import "./watch.css";
+@import "./profile.css";
 
 body {
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     width: 100vw;
     height: 100vh;
 }

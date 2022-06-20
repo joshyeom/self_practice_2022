@@ -1,0 +1,162 @@
+.profile__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20px 0 20px;
+    font-size: 20px;
+}
+
+.profile__header > i {
+    font-size: 25px;
+}
+.bookmark-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+
+.profile__profile-edit {
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    margin: 20px 0 0 20px;
+}
+
+.profile__profile-edit img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile__nick-name {
+    margin-left: 20px;
+}
+
+.profile__nick-name h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.profile__nick-name h6 {
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.profile__info-block {
+    height: 80px;
+    border-top: 5px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__info h6 {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.profile__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__storage__header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.profile__storage__header h6 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.profile__storage-info {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(242, 249, 246);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile__storage-details {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.profile__storage-details h6 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.profile__storage-book {
+    width: 95%;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box__green-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(15, 222, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__storage-book i {
+    color: white;
+    font-size: 25px;
+}
+
+.storage-book__text h1, h6 {
+    color: white;
+    font-size: 10px;
+}
+
+.storage-book__text h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.storage-book__text {
+    margin-right: 230px;
+}
+
+.profile__storage-buy {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

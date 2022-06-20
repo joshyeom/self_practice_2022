@@ -1,3 +1,12 @@
+.title {
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+.login-box h3 {
+    margin-bottom: 80px;
+}
+
 
 #login__form {
     margin-top: 100px;
@@ -43,7 +52,7 @@
 }
 
 .other-method__login-box input:first-child {
-    background-image : url('https://cdn.icon-icons.com/icons2/2108/PNG/512/google_icon_130924.png'); 
+    background-image : url('https://static.cdninstagram.com/rsrc.php/v3/y9/r/uhXzVt-dlj4.png');
     background-position: 20px;
     background-repeat:no-repeat;
     background-size: 40px;

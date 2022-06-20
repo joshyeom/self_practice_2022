@@ -14,15 +14,28 @@
 
 
 .search_contents {
-    width: 190px;
+    width: 0px;
     background-color: rgb(235, 240, 245);
     margin: 0 20px;
     margin-top: 100px;
     border-radius: 20px;
 }
 
-
-
+.animation-1 {
+    animation: 1s ease-in-out forwards images-size;
+}
+.animation-2 {
+    animation: 1s ease-in-out forwards images-size;
+    animation-delay: 0.5s;
+}
+.animation-3 {
+    animation: 1s ease-in-out forwards images-size;
+    animation-delay: 1s;
+}
+.animation-4 {
+    animation: 1s ease-in-out forwards images-size;
+    animation-delay: 1.5s;
+}
 .search_informations {
     position: relative;
 }
@@ -32,6 +45,14 @@
     bottom: 210px;
     left: 185px;
     cursor: pointer;
+    opacity: 0%;
+    animation: 0.5s ease-in-out forwards others-opacity;
+    animation-delay: 2.5s;
+    transition: color 0.5s ease-in-out;
+}
+
+.book-mark_absolute:hover {
+    color: yellow;
 }
 
 .search_main {
@@ -61,6 +82,9 @@
     border-radius: 10px;
     margin: 0 5px;
     cursor: pointer;
+    opacity: 0%;
+    animation: 0.5s ease-in-out forwards others-opacity;
+    animation-delay: 2.5s;
 }
 
 .button_buy {
@@ -69,4 +93,25 @@
 
 .button_sell {
     background-color: rgb(62, 176, 115);
+}
+
+@keyframes images-size {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 210px;
+    }
+    100% {
+        width: 190px;
+    }
+}
+
+@keyframes others-opacity {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }

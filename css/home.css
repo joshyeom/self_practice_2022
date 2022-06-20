@@ -1,6 +1,7 @@
 .img__main {
     margin-top: 80px;
     width: 100%;
+    animation: 2s ease-in-out forwards main-opacity
 }
 
 .img__categories{
@@ -12,11 +13,69 @@
 }
 
 .img__categories__images__image{
-    width:80px;
+    width:0px;
     border-radius: 100%;
     margin: 0 20px;
 }
 
+.img__categories__images span {
+    animation: 1s ease-in-out forwards categries-appear-opacity;
+    opacity: 0%;
+    animation-delay: 5s;
+}
+
+.img__categories:nth-child(2) {
+    animation: 1s ease-in-out forwards categories-appear-size;
+    animation-delay: 1s;
+}
+
 #homeBody {
     height: 50px;
+}
+
+.animation1{
+    animation: 1s ease-in-out forwards categories-appear-size;
+    animation-delay: 2s;
+}
+.animation2{
+    animation: 1s ease-in-out forwards categories-appear-size;
+    animation-delay: 2.5s;
+}
+.animation3{
+    animation: 1s ease-in-out forwards categories-appear-size;
+    animation-delay: 3s;
+}
+.animation4{
+    animation: 1s ease-in-out forwards categories-appear-size;
+    animation-delay: 3.5s;
+}
+
+@keyframes main-opacity {
+    from {
+        opacity: 0%
+    }
+    to {
+        opacity: 100%
+    }
+}
+
+@keyframes categories-appear-size {
+    0% {
+        width: 0px;
+    }
+    50% {
+        width: 100px;
+    }
+    100%{
+        width: 80px;
+    }
+}
+
+@keyframes categries-appear-opacity{
+    0% {
+        opacity: 0%
+    }
+    100% {
+        opacity: 100%;
+    }
 }
